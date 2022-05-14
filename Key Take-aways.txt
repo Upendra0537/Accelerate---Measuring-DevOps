@@ -1,0 +1,88 @@
+Accelerate - Book
+
+Safari/Orelly online book link
+https://learning.oreilly.com/library/view/accelerate/9781457191435/00-Cover.xhtml
+
+
+
+
+FOCUS ON CAPABILITIES, NOT MATURITY - CMM levels
+
+. In fact, our research shows that none of the following often-cited factors predicted performance:
+
+age and technology used for the application (for example, mainframe “systems of record” vs. greenfield “systems of engagement”)
+whether operations teams or development teams performed deployments
+whether a change approval board (CAB) is implemented
+
+
+ product delivery lead time as the time it takes to go from code committed to code successfully running in production
+
+Cluster Analysis
+
+Software Delivery Performance
+- Lead Time				- Tempo
+- Deployment Frequency		- Tempo
+- Mean Time to Restore(MTTR)  - Stability
+- Change Fail Percentage	- Stability
+
+High Performing Vs Low Performing Teams
+
+THE IMPACT OF DELIVERY PERFORMANCE ON ORGANIZATIONAL PERFORMANCE
+High performers twice likely to exceed object than low performers
+
+
+“Do change management boards actually improve delivery performance?” (Spoiler alert: they do not; they are negatively correlated with tempo and stability.)
+
+CULTURE
+-------
+
+’whenever there is fear, you get the wrong numbers’”
+
+MODELING AND MEASURING CULTURE
+- basic assumptions - not visible - relationships of teams in organization
+- values - slightly visible - 
+- Artifacts - more visible - mission/vision statements
+
+Westrum Organizational Culture
+- Pathological (Power-Oriented) - withhold info
+- Bureaucratic (Rule-Oriented) - their own rules
+- Generative (Performance-Oriented) - overall mission
+
+
+“who is on a team matters less than how the team members interact, structure their work, and view their contributions” (Google 2015). In other words, it all comes down to team dynamics.
+
+accident investigations that stop at “human error” are not just bad but dangerous. Human error should, instead, be the start of the investigation
+
+the way to change culture is not to first change how people think, but instead to start by changing how people behave—what they do
+
+CONTINOUS DELIVERY
+- Build quality in
+- work in small batches
+- computers perform repetitive tasks, people solve problems
+- Relentlessly pursue continous improvement 
+- Everyone is responsible
+
+Drivers:
+- Version Control  - both Application source code and Configuration(generally ignore)
+- Test Automation
+- Test Data Management
+- Trunk-Based Development - branch creation - never had “code freeze” or stabilization periods
+- Information security - Shift Left
+- Adopting Continuous Delivery - Team Burnout, deployment pain
+- Loosely coupled architecture
+- Empowered teams
+- Monitoring
+- Proactive Notification
+- Continous Integration
+
+Architecture
+- Loosly coupled Systems enable scalability
+- Testability  - Do most of their testing on demand, without requiring an integrated test environment
+- Deployability - Perform deployments on Demand and  during normal business hours with negligible downtime
+We found that high performance is possible with all kinds of systems, provided that systems—and the teams that build and maintain them—are loosely coupled.
+
+Interestingly, having to integrate against mainframe systems was not significantly correlated with performance.
+
+ALLOW TEAMS TO CHOOSE THEIR OWN TOOLS
+
+ARCHITECTS SHOULD FOCUS ON ENGINEERS AND OUTCOMES, NOT TOOLS OR TECHNOLOGIES
